@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+.navbar {
+  height: 50px;
+  background-color: #131921;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4px;
+}
+
+.nav-logo {
+  height: 45px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url("/Image/amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
+
+.border {
+  border: 1px solid transparent;
+}
+
+.border:hover {
+  border: 1px solid white;
+}
+
+/* box 2 */
+
+.add-first {
+  color: #cccccc;
+  font-size: 1rem;
+  margin-left: 17px;
+}
+
+.add-second {
+  color: #cccccc;
+  font-size: small;
+  margin-left: 5px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* box3 */
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 17px;
+  background-color: rgb(116, 122, 120);
+  width: 900px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.search-select {
+  background-color: #e6e6e6;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #febd69;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.nav-search:hover {
+  border: 3px solid orange;
+}
+
+/* Box 4 - 5 */
+
+.span {
+  font-size: small;
+}
+
+.nav-second {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* box 6 */
+.nav-cart {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* panel */
+
+.panel {
+  height: 40px;
+  background-color: #232f3e;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-ops {
+  display: inline-flex;
+  width: 70%;
+}
+
+.panel-ops p {
+  margin: 20px;
+}
+
+.panel-deals {
+  font-weight: 700;
+}
+
+/* Hero section */
+
+.hero-section {
+  background-image: url(./Image/hero_image.jpg);
+  background-size: cover;
+  height: 400px;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+
+.hero-msg {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95 rem;
+  width: 85%;
+  margin-bottom: 15px;
+}
+
+.hero-msg a {
+  padding-left: 4px;
+  color: #007185;
+  font-weight: 700;
+}
+
+/* Shop section */
+
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+
+.box {
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box-img {
+  height: 300px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+footer {
+  margin-top: 15px;
+}
+
+.foot-panel1 {
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+}
+
+.foot-panel2 {
+  background-color: #232f3e;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 12px;
+}
+
+ul a {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 7px;
+}
+
+.foot-panel3 {
+  background-color: #232f3e;
+  color: white;
+  border-top: 0.5px solid #3a4553;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  background-image: url("/CLONE/Image/amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
+
+.foot-panel4 {
+  background-color: #131a22;
+  color: #dddddd;
+  height: 170px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul2 p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 12px;
+}
+
+ul2 a {
+  display: block;
+  font-size: small;
+  margin-bottom: 5px;
+}
+.foot-panel5 {
+  background-color: #131a22;
+  color: #dddddd;
+  height: 80px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.pages {
+  padding-top: 22px;
+}
+.copyright {
+  padding-top: 5px;
+}
